@@ -36,3 +36,14 @@ int main()
 
     return 0;
 }
+
+// Example Input
+// Enter number of disk requests: 5
+// Enter disk request sequence:
+// 98 183 37 122 14
+// Enter initial head position: 53
+// Output
+// Disk Movement Order:
+// 53 -> 98 -> 183 -> 37 -> 122 -> 14
+
+// Total Head Movement = 640

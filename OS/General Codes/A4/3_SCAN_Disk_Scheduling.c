@@ -95,3 +95,17 @@ int main()
 
     return 0;
 }
+
+// Example Input
+// Enter number of disk requests: 5
+// Enter disk request sequence:
+// 98 183 37 122 14
+// Enter initial head position: 53
+// Enter disk size: 200
+// Enter direction (1=right): 1
+
+// Example Output
+// Disk Movement Order:
+// 53 -> 98 -> 122 -> 183 -> 199 -> 37 -> 14
+
+// Total Head Movement = 331

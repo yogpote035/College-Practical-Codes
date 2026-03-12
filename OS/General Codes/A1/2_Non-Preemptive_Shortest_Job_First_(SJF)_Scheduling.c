@@ -76,3 +76,31 @@ int main()
 
     return 0;
 }
+
+
+// Enter number of processes: 3
+
+// Process P1
+// Arrival Time: 0
+// First CPU Burst: 5
+
+// Process P2
+// Arrival Time: 0
+// First CPU Burst: 4
+
+// Process P3
+// Arrival Time: 0
+// First CPU Burst: 2
+
+// sample o/p
+
+// Gantt Chart
+// | P3 | P2 | P1 |
+
+// P   AT  BT1  BT2  CT  TAT  WT
+// P1  0   5    1    15  15   7
+// P2  0   4    1    9   9    2
+// P3  0   2    1    5   5    0
+
+// Average Waiting Time = 3.00
+// Average Turnaround Time = 9.67

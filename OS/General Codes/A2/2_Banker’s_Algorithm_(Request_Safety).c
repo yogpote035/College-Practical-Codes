@@ -131,3 +131,44 @@ int main()
 
     return 0;
 }
+
+
+// sample Input
+// Processes = 5
+// Resources = 3
+
+// Allocation
+// 0 1 0
+// 2 0 0
+// 3 0 2
+// 2 1 1
+// 0 0 2
+
+// Max
+// 7 5 3
+// 3 2 2
+// 9 0 2
+// 2 2 2
+// 4 3 3
+
+// Available
+// 3 3 2
+
+// Request Process
+// 1
+
+// Request
+// 1 0 2
+
+
+
+// sample output
+// Need Matrix
+// 7 4 3
+// 1 2 2
+// 6 0 0
+// 0 1 1
+// 4 3 1
+
+// System is in SAFE state
+// Safe Sequence: P1 P3 P4 P0 P2

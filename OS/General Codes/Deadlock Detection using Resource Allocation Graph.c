@@ -55,13 +55,20 @@ int main()
     return 0;
 }
 //  deal lock input
+// adjency: 4
 // 0 0 1 0
 // 0 0 0 1
 // 0 1 0 0
 // 1 0 0 0
 
+// P1 → R1 → P2 → R2 → P1
+
 // no deadlock 
+// adjency: 4
 // 0 0 1 0
 // 0 0 0 1
 // 0 0 0 0
 // 0 0 0 0
+
+// P1 → R1
+// P2 → R2

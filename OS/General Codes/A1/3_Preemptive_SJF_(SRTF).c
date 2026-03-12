@@ -84,3 +84,25 @@ int main()
 
     return 0;
 }
+
+
+// Enter number of processes: 3
+
+// Process P1
+// Arrival Time: 0
+// First CPU Burst: 6
+
+// Process P2
+// Arrival Time: 1
+// First CPU Burst: 3
+
+// Process P3
+// Arrival Time: 2
+// First CPU Burst: 2
+
+// sample o/p
+
+// P   AT  BT1  BT2  CT  TAT  WT
+// P1  0   6    3    21  21   10
+// P2  1   3    2    12  11   4
+// P3  2   2    4    16  14   6
