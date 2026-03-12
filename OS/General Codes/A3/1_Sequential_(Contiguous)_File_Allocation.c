@@ -85,3 +85,21 @@ int main()
 
     return 0;
 }
+
+
+// Example Input / Output
+// Enter number of disk blocks: 10
+
+// 1.Create File
+// 2.Delete File
+// 3.Display Disk Status
+// 4.Exit
+
+// Enter choice: 1
+// Enter starting block: 2
+// Enter length of file: 3
+// File allocated successfully
+
+// Disk status:
+
+// 0 0 1 1 1 0 0 0 0 0

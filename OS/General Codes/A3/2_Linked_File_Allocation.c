@@ -101,3 +101,33 @@ int main()
 
     return 0;
 }
+
+
+
+// Example Run
+// Enter number of disk blocks: 10
+
+// 1.Create File
+// 2.Delete File
+// 3.Display Disk Status
+// 4.Exit
+
+// Enter choice: 1
+// Enter starting block: 2
+// Enter length of file: 3
+// Enter next block: 5
+// Enter next block: 8
+// File allocated using linked allocation
+
+// Disk status:
+
+// 0 0 1 0 0 1 0 0 1 0
+
+// Meaning:
+
+// 2 → 5 → 8 → NULL
+// Key Idea
+
+// Example linked structure:
+
+// Block 2 → Block 5 → Block 8 → NULL

@@ -96,3 +96,28 @@ int main()
 
     return 0;
 }
+
+
+// Example Run
+// Enter number of disk blocks: 10
+
+// 1.Create File
+// 2.Delete File
+// 3.Display Disk Status
+// 4.Exit
+
+// Enter choice: 1
+// Enter index block: 4
+// Enter number of blocks needed: 3
+// Enter block numbers:
+// 2 6 8
+// File allocated using indexed allocation
+
+// Disk status:
+
+// 0 0 1 0 1 0 1 0 1 0
+
+// Meaning:
+
+// Index Block = 4
+// Blocks = 2, 6, 8
