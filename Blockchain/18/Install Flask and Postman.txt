@@ -1,0 +1,25 @@
+1️⃣ Flask
+What is Flask?
+Flask is a lightweight web framework for Python used to build web applications and REST APIs. It allows developers to create web servers and handle HTTP requests easily.
+
+Steps to Install Flask
+Install Python from https://python.org.
+Open Command Prompt / Terminal.
+Install Flask using pip:
+pip install flask
+Verify installation:
+python -m flask --version
+Flask is now ready to create web applications and APIs.
+
+
+
+2️⃣ Postman
+What is Postman?
+Postman is an API testing tool used by developers to send HTTP requests (GET, POST, PUT, DELETE) and test web APIs.
+
+Steps to Install Postman
+Download Postman from https://www.postman.com/downloads/.
+Run the Postman installer.
+Follow the installation wizard and click Install.
+Launch Postman from the Start Menu.
+Postman is now ready to test APIs.

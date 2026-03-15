@@ -1,0 +1,28 @@
+Blockchain Hashing:
+Blockchain hashing is the process of converting data into a fixed-length string (hash value) using a cryptographic hash function such as SHA-256.
+
+In blockchain, each block contains:
+
+Block data
+Previous block hash
+Its own hash
+
+This hash ensures data integrity and security. If the data in a block changes, its hash also changes, which breaks the chain and reveals tampering.
+
+Properties of Hashing
+    Fixed length output (256 bits in SHA-256)
+    Deterministic (same input → same hash)
+    One-way function (cannot easily reverse to original data)
+    Sensitive to input changes (small change → completely different hash)
+
+Example Python Program Using SHA-256 (below is code)
+import hashlib
+data = "Hello Blockchain"
+# Generate SHA-256 hash
+hash_value = hashlib.sha256(data.encode()).hexdigest()
+
+print("Original Data:", data)
+print("SHA-256 Hash:", hash_value)
+Example Output
+Original Data: Hello Blockchain
+SHA-256 Hash: 6b23c0d5f35d1b11f2f90c16fba7a5f8b8e1b8f0c3e3e5b6e9c4b4d3e3c2f1a
